@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = {
   connect: function() {
-    const dsn = `mongodb://mongo:T2m5afOXnCcr6wfal6pI@containers-us-west-136.railway.app:5634`;
+    const dsn = `mongodb+srv://dbKevCRUD:Ri8j0DzxF1mxpwpC@cluster0.ius1f.mongodb.net/`;
     return mongoose.connect(dsn);
   },
 }
